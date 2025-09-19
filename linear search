@@ -3,11 +3,7 @@ def linear_search(arr, target):
         if arr[i] == target:
             print("Element found at index", i)
             return
-    print("Element not found in array")
-n = int(input("Enter the number of elements in the array: "))
-arr = []
-for i in range(n):
-    val = int(input(f"Enter element {i + 1}: "))
-    arr.append(val)
-target = int(input("Enter your target value: "))
-linear_search(arr, target)
+    print("Element not found in index")
+arr=[10,20,30,40]
+target=int(input("enter your target value"))
+binary_search(arr,target)
