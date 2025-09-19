@@ -10,7 +10,7 @@ def binary_search(arr, target):
             lb = mid + 1
         else:
             ub = mid - 1
-    print("Element not found in array")
+    print("Element not found in index")
 arr=[10,20,30,40]
 target=int(input("enter your target value"))
 binary_search(arr,target)
